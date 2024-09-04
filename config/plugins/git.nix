@@ -1,5 +1,9 @@
 {
   plugins = {
+    diffview = {
+      enable = true;
+      view.mergeTool.layout = "diff4_mixed";
+    };
     gitsigns.enable = true;
     neogit.enable = true;
   };
