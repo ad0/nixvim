@@ -5,7 +5,15 @@
       view.mergeTool.layout = "diff4_mixed";
     };
     gitsigns.enable = true;
-    neogit.enable = true;
+    neogit = {
+      enable = true;
+      settings = {
+        integrations = {
+          diffview = true;
+          telescope = true;
+        };
+      };
+    };
   };
 
   keymaps = [
