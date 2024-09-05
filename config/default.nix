@@ -5,5 +5,6 @@
     ./colorscheme.nix
     ./plugins.nix
     ./plugins/git.nix
+    ./plugins/oil.nix
   ];
 }
