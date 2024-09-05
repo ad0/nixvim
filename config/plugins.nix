@@ -47,6 +47,7 @@
         };
       };
     };
+    todo-comments.enable = true;
     treesitter.enable = true;
     trouble.enable = true;
     which-key.enable = true;
