@@ -8,7 +8,8 @@
           enable = true;
           installCargo = false;
           installRustc = false;
-          settings.cargo.target = "x86_64-unknown-linux-musl";
+          #settings.cargo.target = "x86_64-unknown-linux-musl";
+          settings.cargo.target = "x86_64-pc-windows-msvc";
         };
       };
     };
