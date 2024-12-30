@@ -1,16 +1,8 @@
 {
   colorschemes = {
-    catppuccin = {
+    tokyonight = {
       enable = true;
       settings = {
-        custom_highlights = ''
-          function(highlights)
-            return {
-              CursorLineNr = { fg = highlights.peach, style = {} },
-            }
-          end
-        '';
-        flavour = "macchiato";
         no_bold = false;
         no_italic = false;
         no_underline = false;
